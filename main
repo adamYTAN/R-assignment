@@ -1,0 +1,7 @@
+#This program is intended for testing
+
+Mat <- matrix( c( 1, 2, 3, 5 ), nrow = 2, ncol = 2 )
+cacheSolve( Mat ) #First attempt, calculating the inverse of the matrix
+cacheSolve( Mat ) #Second attempt, getting cached data
+
+#End
